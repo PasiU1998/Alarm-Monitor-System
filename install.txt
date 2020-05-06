@@ -1,0 +1,21 @@
+Step 1 - Import SQL file to MYSQL Database
+	-Run Api
+	- Open Api Project from eclipse IDE.
+	- Maven Update.
+	- Install Tomcat 9 server.
+	- Run on server.
+
+Step 2 - Run the desktop application
+	- Open projects  from NetBeans IDE.
+	- Go to the src folder of DekstopServer
+	- Opem cmd from file location 
+	- Type command rmic server.AlarmMonitorServerRemote
+	- Copy the stub class file and paste in the Client Project build->classes->server 
+	- Type command start rmiregistry
+	- Run the server
+	- Run the client
+
+Step 3 - Run the web application.
+	- Open the web client project
+	- Run install npm command
+	- Run npm start command
